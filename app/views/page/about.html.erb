@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <style>
+  h1{
+    font-size: 300%;
+    font-family: verdana;
+  }
+  h2{
+    text-align: center;
+    font-size: 200%;
+  }
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  p{
+    font-size: 20px;
+    text-align: center;
+  }
+  div{
+    font-size: 20px;
+    padding: 10px;
+  }
+  footer{
+    text-align: center;
+  }
+  </style>
+</head>
+<body>
+  <h1 style="text-align:center;"> Black Desert Online </h1>
+  <div style="text-align:center"><%=image_tag("Black.png",align:"center", alt: "Example Image")%></div>
+  <div style="text-align:center"><%= link_to 'Home', root_path %></div>
+  
+  <h2> Work in progress</h2>
+</body>
+<footer>
+  <p>Karol Maruszak<br>
+     August 2018
+  </P>
+</footer>
+</html>
