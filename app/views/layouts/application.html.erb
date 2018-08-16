@@ -7,13 +7,15 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
-      <% flash.each do |name, msg| %>
+
+      
+        </head>
+  <body>
+    <% flash.each do |name, msg| %>
         <ul>
-         <li><% msg %></li>
+              <l1><%= msg %></li>  
         </ul>
       <% end %>
-  <body>
     <%= yield %>
   </body>
 </html>
