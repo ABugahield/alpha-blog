@@ -29,7 +29,10 @@
   <h1 style="text-align:center;"> Black Desert Online </h1>
 
    <div style="text-align:center"><%=image_tag("Black.png",align:"center", alt: "Example Image")%></div>
-          <div style="text-align:center"><%= link_to 'About', about_path %></div>
+          <div style="text-align:center">
+            <%= link_to 'Alpha Blog', articles_path %> |
+            <%= link_to 'About', about_path %>
+            </div>
   <div>
     <p>Black Desert Online is a sandbox, living-world MMORPG. Experience fast-paced, action-<br>
       packed combat, hunt monsters and huge bosses, fight with friends in a guild to siege nodes<br>
