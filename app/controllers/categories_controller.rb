@@ -46,6 +46,8 @@ class CategoriesController < ApplicationController
       
       flash[:danger] = "Only admin can perform that action"
       
+      redirect_to categories_path
+      
     end 
   end 
   
